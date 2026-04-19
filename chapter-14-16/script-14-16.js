@@ -148,7 +148,7 @@ let fourthOut = devices.shift();
 document.writeln("<br> Out <br>");
 document.writeln(fourthOut);
 
- */
+
 // PROB # 14
 
 
@@ -189,7 +189,7 @@ for (let i = 0;
 }
 document.writeln("</select>");
 
-
+ */
 
 
 
