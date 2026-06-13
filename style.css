@@ -1,0 +1,25 @@
+.mobiles {
+    display: flex;
+    width: 90vw;
+    justify-content: center;
+    gap: 10px;
+}
+.mobiles img {
+    height: 8rem;
+    border: 1px solid black;
+
+}
+.centre {
+    display: flex;
+    justify-content: center;
+    height: 8rem;
+}
+
+#signupForm {
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    width: 20vw;
+    gap: 10px;
+}
+

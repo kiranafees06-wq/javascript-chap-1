@@ -5,7 +5,6 @@ let y = 5;
 let sum = x + y ;
 document.writeln(`Sum of ${x} and ${y} is ${sum} `);
 
-
 // PROBLEM # 02
 document.writeln(`<hr><h3>Problem#02</h3>`);
 
@@ -21,7 +20,6 @@ document.writeln(`Subtraction of ${x} and ${y} is ${sub}
     Division of ${x} and ${y} is ${division} 
     <br> 
     Modulus of ${x} and ${y} is ${modulus}`);
-
 
 // PROBLEM # 03 
 document.writeln(`<hr><h3>Problem#03</h3>`);
@@ -79,21 +77,16 @@ document.writeln(`Table Of 4 <br>
     ${table} x ${n++} = ${i++} <br>
     ${table} x ${n++} = ${i++}`);
 
-
-
-
 // PROBLEM # 06
 document.writeln(`<hr><h3>Problem#06</h3>`);
 
 let tempInCels = 25;
 let tempInFaren = 70;
 
-
 let Faren = tempInCels * 9/5 +32;
 let Cels = (tempInFaren - 32) * 5 / 9;
 
 document.writeln(`<h1>Trmperature Convertor</h1>${tempInCels}°C is ${Faren}°F <br> ${tempInFaren}°F is ${Cels}°C`);
-
 
 // PROBLEM # 07
 document.writeln(`<hr><h3>Problem#07</h3>`);
@@ -171,14 +164,3 @@ let totalSnack = (maxAge-currentAge) * 365 * 3;
 
 document.writeln(`<h1>The Lifetime Supply Calculator</h1>
     <p>Favourite Snack: ${favSnack} <br> Current Age: ${currentAge} <br> Estimated Maximum Age: ${maxAge} <br> Amount of Snacks Per Day : ${ConsumptionPerDay} <br> You will need ${totalSnack} to last you untill the ripe old age of ${maxAge}</p><hr>`);
-
-
-
-
-
-
-
-
-
-
-
